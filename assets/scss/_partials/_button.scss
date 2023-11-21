@@ -1,0 +1,182 @@
+/*----------------------- BOUTONS ------------------------------------------------------------------------------------------*/
+
+.modify {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: hsl(0, 0%, 50%);
+    }
+}
+
+.info {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $white;
+        background-color: $info;
+        border-color: $info;
+    }
+}
+
+.link {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $white;
+        background-color: $link;
+        border-color: $link;
+    }
+}
+
+.success {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $white;
+        background-color: $success;
+        border-color: $success;
+    }
+}
+
+.warning {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $white;
+        background-color: $warning;
+        border-color: $warning;
+    }
+}
+
+.danger {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $white;
+        background-color: $danger;
+        border-color: $danger;
+    }
+}
+
+.info-invers {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $info;
+        border-color: $info;
+    }
+}
+
+.link-invers {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $link;
+        border-color: $link;
+    }
+}
+
+.success-invers {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $success;
+        border-color: $success;
+    }
+}
+
+.warning-invers {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $warning;
+        border-color: $warning;
+    }
+}
+
+.danger-invers {
+    color: hsl(0, 0%, 60%);
+
+    &:hover {
+        color: $danger;
+        border-color: $danger;
+    }
+}
+
+
+
+/* Pour les tags d'informations en tête de home service */
+.case {
+    .control {
+        margin-top: 0.6rem;
+    }
+}
+
+.controlhost {
+    select {
+        border-radius: 0;
+        color: hsl(0, 0%, 60%);
+    }
+
+    &:hover {
+
+        i,
+        select,
+            {
+            border-color: $info;
+            color: $info;
+        }
+    }
+
+    select:active,
+    select:focus {
+        border-color: hsl(0, 0%, 85.9%);
+        box-shadow: none;
+        color: hsl(0, 0%, 60%);
+    }
+
+    .select:not(.is-multiple):not(.is-loading)::after {
+        border-color: $dark;
+    }
+
+
+
+}
+
+.space_button {
+    margin: 0 1.5rem;
+}
+
+
+.swal-text {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.search_box {
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: .9rem;
+    padding: .5rem;
+    padding-top: .9rem;
+    border: 1px solid rgba($dark, .3);
+    border-radius: 3px;
+    color: $dark;
+
+    p {
+        font-size: 1rem;
+    }
+
+    i {
+        margin-bottom: .5rem;
+    }
+
+    &:hover {
+        border: 1px solid rgba($info, .8);
+        color: $info;
+    }
+}

@@ -1,0 +1,426 @@
+/*----------------------- BASE ------------------------------------------------------------------------------------------*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: hsl(0, 0%, 99%);
+}
+
+body {
+    min-height: 100%;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/*----------------------- GENERAL ------------------------------------------------------------------------------------------*/
+.wrap {
+    min-height: 100%;
+}
+
+section {
+    z-index: 2;
+}
+
+.main {
+    color: $darker;
+    margin-bottom: 2rem;
+    padding: 0;
+    padding-right: .8rem;
+}
+
+.main_data {
+    padding-right: 0;
+}
+
+
+.case,
+.title_home,
+.title_form,
+.title_formtop {
+    background-color: $white;
+    border: 1px solid rgba($border, .5);
+    box-shadow: none;
+    margin: 0.8rem;
+
+    h1 {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    h6 {
+        margin-top: 0;
+    }
+}
+
+.case,
+.title_form,
+.title_formtop {
+    border-radius: 0.2rem;
+}
+
+.case,
+.title_form {
+    &:hover {
+        box-shadow: 0px 0px 10px 0px rgba($border, .5);
+        border: 1px solid rgba($border, .4);
+
+    }
+}
+
+.title_formtop,
+.title_home {
+    padding: 0.6rem 0rem;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 52px;
+    z-index: 20;
+    border-bottom: none;
+    box-shadow: 0px 2px 5px 0px rgba($border, .5);
+    ;
+}
+
+
+/*Title h1 en en-tête des home page service (sous navbar)*/
+.title_home {
+    padding: 0;
+    margin: 0;
+
+    .column {
+        padding: 0.6rem 0rem;
+    }
+
+
+    .folder_block {
+        padding-right: 0;
+        margin-right: -0.6rem;
+        text-align: left;
+        padding-left: 1.1rem;
+        line-height: 0.9rem;
+    }
+
+    .folder_line {
+        font-size: 0.75rem;
+        color: $darker;
+    }
+
+    .h1home {
+        padding-left: 0.7rem;
+    }
+
+    .title_homeend {
+        margin-right: 5rem;
+    }
+
+}
+
+
+
+/*Title h1 en en-tête des formulaire des formulaire*/
+.title_formtop {
+    margin: 0;
+    left: 0;
+}
+
+.controls_formtop {
+    display: inline-flex;
+}
+
+
+/*Title h1 au milieu des formulairec*/
+.title_form {
+    padding: 0.7rem 1rem;
+    border: 1px solid rgba($border, .5);
+}
+
+
+/*Case : Element = sur fond blanc*/
+.case {
+    padding: 0.7rem 1rem;
+
+    &:hover {
+
+        h2,
+        .h2hide,
+        th,
+        .h2subtitle {
+            color: $darker;
+        }
+
+        h6 {
+            color: hsl(0, 0%, 25%);
+        }
+    }
+}
+
+
+/*Première case par page*/
+.casetop {
+    margin-top: 4rem;
+}
+
+
+/*Case pour tableaux, permet d'éviter padding blanc en coutour*/
+.casefull {
+    padding: 0.6rem 0rem 0rem 0rem;
+
+    h2,
+    .h2hide {
+        margin-left: 1rem;
+    }
+
+    td.folder_number,
+    th.folder_number,
+    td.first_table,
+    th.first_table {
+        padding-left: 1rem;
+    }
+
+    td.second_table {
+        padding-left: 0.7rem;
+    }
+}
+
+
+.case_nomargin {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+
+/*Case pour boutons de validations des formulaires*/
+.casevalid {
+
+    .button,
+    .buttons .button:not(:last-child):not(.is-fullwidth) {
+
+        margin-top: 0.7rem;
+        margin-right: 3rem;
+        padding: 0.8rem;
+    }
+
+}
+
+/*Case avec contour rouge qui pose des questions supplémentaires*/
+.casequest {
+    border: 1px solid rgba($danger, .4);
+
+    h2,
+    .h2hide {
+        color: hsl(348, 100%, 63%);
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 10px 0px rgba($danger, .3);
+
+        h2,
+        .h2hide {
+            color: hsl(348, 100%, 57%);
+        }
+    }
+}
+
+/*Case avec contour bleu qui donnent informations de sensibilisation*/
+.caseinfo {
+    border: 1px solid rgba($link, .3);
+
+    .card-content {
+        padding: 0;
+    }
+
+    .content {
+        margin-top: 0.5rem;
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+
+
+    .h2subtitle {
+        font-size: 0.9rem;
+        margin-top: 0.1rem;
+    }
+
+    i {
+        color: hsl(217, 71%, 55%);
+    }
+
+    h2,
+    .h2hide {
+        color: hsl(217, 71%, 50%);
+    }
+
+    &:hover {
+
+        box-shadow: 0px 0px 10px 0px rgba($link, .3);
+
+        i,
+        h2,
+        .h2hide {
+            color: hsl(217, 71%, 40%);
+        }
+    }
+}
+
+.data_filtres {
+    margin-top: 1.8rem;
+}
+
+
+.first_entretien {
+    margin-left: 10rem;
+}
+
+
+
+/*----------------------- FORMS ------------------------------------------------------------------------------------------*/
+select,
+input,
+.input,
+    {
+    width: 10rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0;
+}
+
+
+.money {
+    margin-top: -.7rem;
+}
+
+table .money {
+    margin-top: -.6rem;
+}
+
+
+.field {
+    .input {
+        width: 7.5rem;
+    }
+}
+
+.checkbox input {
+    width: 2rem;
+}
+
+
+.is-100 {
+    width: 100%;
+    max-width: 100rem;
+
+    table select,
+    table input,
+    table .input,
+    table .select {
+        max-width: 100rem;
+    }
+}
+
+.multiple {
+    width: 100%;
+    margin-bottom: 0.2rem;
+
+}
+
+textarea {
+    min-height: 65px;
+    resize: horizontal;
+    overflow-y: visible;
+}
+
+.phonecode {
+    width: 4rem;
+}
+
+
+.input[disabled],
+.textarea[disabled],
+.select select[disabled] {
+    background-color: transparent;
+    color: $darker;
+    border-color: transparent;
+    margin-top: -0.1rem;
+    margin-bottom: -0rem;
+    resize: none;
+}
+
+
+.input[disabled],
+.textarea[disabled] {
+    margin-left: -0.4rem;
+}
+
+
+.select select[disabled] {
+    margin-left: -0.6rem;
+
+    &:hover {
+
+        border-color: transparent;
+    }
+}
+
+
+.codecompta_bloc {
+    .codecompta_gras {
+        text-align: center;
+        padding-top: 0.3rem;
+        font-weight: 600;
+        color: $link;
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        border-color: #b5b5b5;
+    }
+}
+
+.column_position {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------------------- TITRES ------------------------------------------------------------------------------------------*/
+
+h1 {
+    color: $black;
+}
+
+
+h2,
+.h2hide {
+    letter-spacing: 0.04rem;
+    border-bottom: solid 1px $aside;
+    padding-bottom: 0.2rem;
+    color: $dark;
+}
+
+
+h6 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: $dark;
+    margin-bottom: - 0.1rem;
+
+}
+
+.gras {
+    font-weight: 700;
+}
+
+.folder_number {
+    color: $link;
+    font-weight: 500;
+}

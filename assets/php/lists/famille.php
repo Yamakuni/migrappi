@@ -1,0 +1,14 @@
+<option value="_*">--</option>
+<option value="conjoint">Conjoint</option>
+<option value="fils">Fils</option>
+<option value="filles">Fille</option>
+<option value="pere">Père</option>
+<option value="mere">Mère</option>
+<option value="frere">Frére</option>
+<option value="soeur">Soeur</option>
+<option value="cousin">Cousin</option>
+<option value="cousine">Cousine</option>
+<option value="oncle">Oncle</option>
+<option value="tante">Tante</option>
+<option value="tuteur_legal">Tuteur légal</option>
+<option value="tuteur_nolegal">Tuteur non légal</option>

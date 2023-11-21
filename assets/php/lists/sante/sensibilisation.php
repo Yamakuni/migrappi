@@ -1,0 +1,15 @@
+<option value="1">Allaitement et nutrition de nourisson</option>
+<option value="2">Puéricultrice</option>
+<option value="3">Grossesse</option>
+<option value="4">Education sexuelle et IST</option>
+<option value="5">Addiction</option>
+<option value="6">Repos</option>
+<option value="7">Observance et respect de la posologie des traitements</option>
+<option value="8">Parcours de soins</option>
+<option value="9">PEC Caritas</option>
+<option value="10">CAT rhumes</option>
+<option value="11">CAT asthmes</option>
+<option value="12">CAT Tuberculose</option>
+<option value="13">CAT HTA et/ou Diabète</option>
+<option value="14">CAT gale</option>
+<option value="15">Autre</option>

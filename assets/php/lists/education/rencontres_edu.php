@@ -1,0 +1,9 @@
+<option value="">--</option>
+<option value="1">Enseignant</option>
+<option value="2">Directeur</option>
+<option value="3">Animateur</option>
+<option value="4">Enfant</option>
+<option value="5">Compagnons</option>
+<option value="6">Surveillant géneral</option>
+<option value="6">Tuteur de stage</option>
+<option value="7">Autre</option>

@@ -1,0 +1,9 @@
+<option value="">--</option>
+<option value="1">Troubles de l'humeur / anxieux</option>
+<option value="2">Psychose aigûe / chronique</option>
+<option value="3">PTSD</option>
+<option value="4">Troubles apprentissage</option>
+<option value="5">Troubles du comportement</option>
+<option value="6">T.E.D</option>
+<option value="7">Consiel, guidance</option>
+<option value="8">Autre</option>

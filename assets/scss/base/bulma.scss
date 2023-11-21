@@ -1,0 +1,33 @@
+/*----------------------- BULMA CORRECTIONS ------------------------------------------------------------------------------------------*/
+
+.column,
+.level,
+.columns {
+    padding-top: 0rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0rem;
+}
+
+.table:not(:last-child),
+.columns:last-child,
+.level:not(:last-child),
+.subtitle:not(:last-child),
+.notification:not(:last-child),
+.subtitle:not(:last-child),
+.columns:not(:last-child) {
+    margin-bottom: 0rem;
+}
+
+
+.ss-main .ss-multi-selected .ss-add {
+    display: none;
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(2n) {
+    background-color: $aside;
+}
+
+th {
+    background-color: transparent;
+}

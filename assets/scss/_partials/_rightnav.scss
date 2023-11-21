@@ -1,0 +1,41 @@
+.pagenav {
+    padding-right: 0.5rem;
+    margin-top: 4rem;
+    overflow: hidden;
+    position: fixed;
+
+    font-family: 'Lato', sans-serif;
+    color: $dark;
+    font-weight: 500;
+    z-index: 1;
+    background-color: transparent;
+
+}
+
+.pn_menu {
+    border-left: 1px solid $border;
+}
+
+
+.toc-link {
+    &:hover {
+        color: $darker;
+    }
+}
+
+
+.node-name--H2,
+.node-name--H3 {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+
+.is-active-li .toc-link {
+    font-weight: 500;
+    color: tint($danger, 30%);
+}
+
+.is-active-link::before {
+    background-color: $danger;
+}

@@ -1,0 +1,93 @@
+.datamenu,
+.fingerprint {
+    background-color: $white;
+    width: 20rem;
+    border-radius: .4rem;
+    font-size: .7rem;
+    overflow-y: hidden;
+
+    .delete {
+        background-color: $dark;
+        margin-top: .75rem;
+        margin-right: .7rem;
+    }
+
+    a.navbar-item,
+    .card-header-title {
+        justify-content: center;
+    }
+
+    .card-header-title {
+        font-size: .9rem;
+    }
+
+    a.navbar-item:hover {
+        border-bottom: 1px solid transparent;
+        background-color: rgba($dark, 0.05);
+    }
+}
+
+.datamenu {
+    width: 20rem;
+}
+
+.fingerprint {
+    width: 30rem;
+}
+
+.table .fingerprint_head {
+    font-weight: 700;
+}
+
+.fingerprint_first {
+    width: 8rem
+}
+
+.version {
+    width: 40rem;
+
+    .modal-card-head {
+        box-shadow: 0px 2px 5px 0px rgba($border, .5);
+    }
+
+    .modal-card-title {
+        font-size: 1.2rem;
+    }
+
+    .modal-card-body h5 {
+        margin-top: 2rem;
+        border-bottom: 1px solid $dark;
+        color: $darker;
+    }
+
+    .modal-card-body .h5_modaltop {
+        margin-top: 0;
+        ;
+    }
+
+    p,
+    li {
+        font-size: 0.85rem;
+    }
+
+    .version_descript {
+        margin-bottom: 5rem;
+    }
+
+    .tag {
+        margin: 0.6rem 0 .3rem;
+    }
+
+    ul {
+        margin-left: 2rem;
+    }
+
+
+    li {
+        list-style-type: circle;
+    }
+}
+
+.modal-content .image img {
+    margin-top: 5%;
+}

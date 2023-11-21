@@ -1,0 +1,12 @@
+<option value="">--</option>
+<option value="1">Centre de santé primaire</option>
+<option value="2">Centre de diagnostic</option>
+<option value="3">Centre Hospitalier regional / provincial</option>
+<option value="4">CHU</option>
+<option value="5">Maison d'accouchement</option>
+<option value="6">Cabinet dentaire privé</option>
+<option value="7">Association partenaires (ALCS, CEI, MERF, MDM...)</option>
+<option value="8">Agence ONU (HCR, OIM...)</option>
+<option value="9">Cabinet médical privé</option>
+<option value="10">Clinique privé</option>
+<option value="11">Autre</option>

@@ -1,0 +1,11 @@
+<option value="">--</option>
+<option value="amis">Amis - Famille</option>
+<option value="communaute">Communauté</option>
+<option value="ong">Associations & ONG</option>
+<option value="cicr">CICR</option>
+<option value="onu">Agence ONU</option>
+<option value="eglise">Église</option>
+<option value="public">Structures publiques</option>
+<option value="servicecaritas">Autre service Caritas</option>
+<option value="centrecaritas">Autre centre de Caritas</option>
+<option value="autre">Autre</option>

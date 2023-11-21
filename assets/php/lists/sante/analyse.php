@@ -1,0 +1,10 @@
+<option value=""></option>
+<option value="1">Cyto/hématologie</option>
+<option value="2">Bactério/Parasito</option>
+<option value="3">Sérologie bactérienne / virale</option>
+<option value="4">Bilan rénal</option>
+<option value="5">Bilan hépatique</option>
+<option value="6">Bilan prénatal</option>
+<option value="7">Bilan thyroidien</option>
+<option value="8">Autres biochimie</option>
+<option value="9">Anatomie pathologique</option>

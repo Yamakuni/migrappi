@@ -1,0 +1,9 @@
+<option value="">--</option>
+<option value="hopital">Hôpital</option>
+<option value="protectionenfance">Structure de protection de l'enfance</option>
+<option value="oim">OIM</option>
+<option value="hcr">HCR</option>
+<option value="association">Association</option>
+<option value="commissariat">Commissariat</option>
+<option value="tribunal">Tribunal</option>
+<option value="autre">Autre</option>

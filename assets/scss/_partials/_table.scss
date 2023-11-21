@@ -1,0 +1,175 @@
+/*----------------------- TABLEAUX ------------------------------------------------------------------------------------------*/
+
+.table {
+    background-color: transparent;
+    margin-top: 0.5rem;
+
+
+    th,
+    td {
+        font-weight: 500;
+        font-size: 0.8rem;
+    }
+
+    td {
+        border-bottom: 1px solid hsl(0, 0%, 95%);
+
+    }
+
+    td.folder_number {
+        color: $link;
+        font-weight: 700;
+    }
+
+    .button {
+        min-width: 29px;
+    }
+}
+
+table {
+
+    select,
+    input,
+    .input,
+    .select {
+        max-width: 8rem;
+    }
+
+    .field {
+        .input {
+            max-width: 6rem;
+        }
+    }
+
+    .is-little {
+        max-width: 4rem;
+    }
+
+    textarea {
+        min-height: 2.5rem;
+    }
+}
+
+.is-100 {
+
+    select,
+    input,
+    .input,
+    .select {
+        max-width: 100rem;
+    }
+}
+
+.table.is-hoverable tbody tr:not(.is-selected):hover {
+    background-color: $light;
+}
+
+.table_noborder {
+    td {
+        border-bottom: none;
+    }
+}
+
+
+/*----- Corrige décalage quand apparition avec un display:none conditionnel -----------*/
+.table #deplacement_title {
+    margin-bottom: -1px;
+}
+
+#prise_encharge_list {
+    tr {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+table,
+.table {
+    .select select[disabled] {
+        margin-left: auto;
+
+    }
+}
+
+
+
+table,
+.table {
+
+    .input[disabled],
+    .textarea[disabled] {
+        margin-left: auto;
+    }
+}
+
+
+
+table,
+.table {
+
+    .input[disabled],
+    .textarea[disabled],
+    .select select[disabled] {
+        background-color: transparent;
+        color: $darker;
+        border-color: transparent;
+        margin-top: auto;
+        margin-bottom: auto;
+        resize: none;
+    }
+}
+
+
+/*----------------------- Tableaux indicateurs ------------------------------------------------------------------------------------------*/
+.table .data_td,
+.table .data_th {
+    text-align: center;
+    max-width: 5rem;
+    min-width: 5rem;
+}
+
+.table .data_th {
+    font-weight: 700;
+}
+
+.table .data_thleft {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.table.is-bordered .data_total {
+    color: $link;
+}
+
+/*----------------------- Tableaux des utilisateurs --------------------------------------------------------------------------------------*/
+
+
+
+.centre_user {
+    .select {
+        width: 7vw;
+    }
+
+}
+
+.info_user,
+date_user {
+    width: 6vw;
+
+}
+
+
+.access_user {
+    width: 20vw;
+}
+
+.btn_user {
+    width: 3vw;
+}
+
+.ip_user {
+    color: $darker;
+    ;
+}

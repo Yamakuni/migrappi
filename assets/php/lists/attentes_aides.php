@@ -1,0 +1,15 @@
+<option value="">--</option>
+<option value="loyer">Loyer</option>
+<option value="santé">Santé</option>
+<option value="alimentation">Alimentation</option>
+<option value="couvertures">Couvertures</option>
+<option value="douche">Douche</option>
+<option value="hosting">Hébergement d'urgence</option>
+<option value="transport">Frais de transport</option>
+<option value="retour">Aide au retour</option>
+<option value="couches">Couches</option>
+<option value="matelas">Matelas</option>
+<option value="vetements">Vêtements</option>
+<option value="santé">Travail</option>
+<option value="santé">Formation</option>
+<option value="autres">Autres</option>

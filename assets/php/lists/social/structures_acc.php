@@ -1,0 +1,13 @@
+<option value="">--</option>
+<option value="1">Moqâta</option>
+<option value="2">Tribunal</option>
+<option value="5">Représentation consulaire</option>
+<option value="6">Préfecture</option>
+<option value="7">Autre administration</option>
+<option value="8">Établissement de formation</option>
+<option value="9">Anapec</option>
+<option value="10">Établissement de protection social</option>
+<option value="11">OIM</option>
+<option value="12">HCR</option>
+<option value="13">Association</option>
+<option value="14">Autre</option>

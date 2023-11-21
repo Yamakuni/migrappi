@@ -1,0 +1,14 @@
+<option value=""></option>
+<option value="1">Radiographie osseuse</option>
+<option value="2">Radiographie pulmonnaire</option>
+<option value="3">Fibroscopie</option>
+<option value="4">Coloscopie / Rectoscopie</option>
+<option value="5">Echo des parties molles</option>
+<option value="6">Echo abdo-pelviennes</option>
+<option value="7">ECG/ETT</option>
+<option value="8">EEG</option>
+<option value="9">Champ visuel / FO/ OCT</option>
+<option value="10">Scanner/TDM</option>
+<option value="11">IRM</option>
+<option value="12">EFR (spirométrie/épreuve d'effort/ pléthysmographie)</option>
+<option value="13">Autre</option>
