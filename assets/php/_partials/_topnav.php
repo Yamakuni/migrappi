@@ -1,8 +1,9 @@
 <nav class="navbar is-fixed-top columns">
 
     <div class="navbar-brand column is-2">
-        <a class="navbar-item navbar-logo" href="index.php"><img src="assets/img/logo.png"></a>
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a class="navbar-item navbar-logo" href="home_general.php"><img src="assets/img/logo.png"></a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -32,7 +33,8 @@
                 <a href="page_history.php" class="navbar-item"><i class="fal fa-history"></i>Historique</a>
                 <a onclick="version_open()" class="navbar-item"><i class="fal fa-poll-h"></i>Release notes</a>
                 <hr class="navbar-divider">
-                <a class="navbar-item" href="https://framaforms.org/base-de-donnees-1533647387" target="_blank"><i class="fal fa-bug"></i>Signaler bug</a>
+                <a class="navbar-item" href="https://framaforms.org/base-de-donnees-1533647387" target="_blank"><i
+                        class="fal fa-bug"></i>Signaler bug</a>
                 <a href="page_admin.php" class="navbar-item"><i class="fal fa-shield-cross"></i>Administration</a>
             </div>
         </div>
